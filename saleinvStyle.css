@@ -1,0 +1,59 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+        
+}
+/* invoice form styles */
+.left {
+    flex: 1;
+    background-color: rgba(9, 71, 107, 0.47);
+    padding: 20px;
+}
+
+
+
+
+
+/* invoice tabe styles */
+.right {
+    flex: 1;
+    /* background-color: orange; */
+    padding: 20px;
+}
+.totalPriceContainer {
+    /* float: right; */
+    align-items:flex-end;
+    top: 0;
+    right: 0;
+    padding: 10px 30px;
+    /* background-color: #cc1818; */
+    border: 3px solid #38ccd1;
+    text-align: end;
+  }
+  
+  .invoicetable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .invoicetable th, .invoicetable td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .invoicetable th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .invoicetable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  

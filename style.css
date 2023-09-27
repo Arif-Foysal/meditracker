@@ -1,0 +1,192 @@
+/* Global Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 62.5%;
+  }
+  /* Font management */
+  h1{
+    font-size: 4.8rem;
+    font-family:'Kaushan Script', sans-serif;
+  }
+  
+  h2{
+    font-size: 3rem;
+    font-family:'Josefin Sans', sans-serif;
+  }
+  h3{
+    font-size: 2.8rem;
+    font-family:'Josefin Sans', sans-serif;
+  }
+  h4,h5{
+    font-size: 2.6rem;
+    font-family:'Josefin Sans', sans-serif;
+  }
+  li,button,label,input{
+    font-size: 2rem;
+  }
+/* Style for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:  #616a6b ;*/
+    background-color:   #616a6b;
+
+    padding-left: 3%;
+    padding-right: 3%;
+    min-height: 10vh;
+}
+
+/* Style for the logo */
+.logo img {
+    width: 80px; /* Adjust as needed */
+    height: auto;
+}
+
+/* Style for the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+.nav-links a:hover{
+    background-color: #cb4335;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+/* Style for the dropdown menu */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* signup page */
+/* 
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    /* background-color: #26a69a; */
+    
+}
+.signup-container h2{
+
+        font-size: 24px;
+        margin-bottom: 20px;
+    
+}
+
+.signup-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 40vw;
+}
+.signup-form p{
+    font-size: 2rem;
+}
+
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color:  #cb4335 ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;    
+}
+
+button:hover {
+    background-color:  #9b291c ;
+    border-radius: 0%;
+    border-color: #26a69a;
+    transition: .5s;
+    
+}
+
+.signup-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin: 5px 0;
+    }
+} */
